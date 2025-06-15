@@ -21,13 +21,31 @@ This is the backend API for the Contacts App, built with Node.js, Express, and T
 Create a `.env` file in the root directory with the following variables:
 
 ```env
-PORT=3000
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-JWT_REFRESH_SECRET=your_jwt_refresh_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
+PORT=
+APP_DOMAIN=
+JWT_SECRET=
+NODE_ENV=
+
+
+MONGODB_USER=
+MONGODB_PASSWORD=
+MONGODB_URL=
+MONGODB_DB=
+
+SMTP_HOST=
+SMTP_PORT=
+SMTP_USER=
+SMTP_PASSWORD=
+SMTP_FROM=
+
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+CLOUDINARY_CLOUD_NAME=
+
+GOOGLE_AUTH_CLIENT_ID=
+GOOGLE_AUTH_CLIENT_SECRET=
+GOOGLE_REDIRECT_URI=
+
 ```
 
 ## Installation
